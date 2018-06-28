@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Twitteratops</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/the-big-picture.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation
+    <nav id="navigation" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container" >
+                <a class="navbar-brand" href="index.html"> TWITTERATOPS </a>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <button type="button" class="button nav-link" data-toggle="modal" data-target="#tweetModal"> TWEETER </button>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="photos.html">PROFIL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav id="navigation" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+                      <div class="container" >
+                          <h3 class="navbar-brand"> TWITTERATOPS </h3>
+
+                          <div class="collapse navbar-collapse" id="navbarResponsive">
+                              <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item ml-1">
+                                      <input class="nav-link form-control col-auto" type="text" placeholder="Search.." name="search">
+                                  </li>
+                                  <li class="nav-item ml-1 mr-5">
+                                      <button id="bouton3" type="submit" class="btn btn-primary col-auto"><img id="image" class="img-fluid" src="Media/loupe.png" alt=""></button>
+                                  </li>
+                                  <li class="nav-item ml-1 mr-5">
+                                      <button id="bouton3" class="nav-link btn btn-primary col-auto" data-toggle="modal" data-target="#tweetModal"><img id="image" class="img-fluid" src="Media/tweet.png" alt=""></img></button>
+                                  </li>
+                                  <li class="nav-item ml-1">
+                                      <a id="bouton3" class="nav-link btn btn-primary col-auto" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="false" aria-controls="collapse12">ZHIPPOPOTAME <img id="image" class="img-fluid" src="Media/profil.png" alt=""></img></a>
+                                  </li>
+                                  <li class="nav-item ml-1">
+                                      <a id="bouton3" class="nav-link btn btn-primary col-auto" data-toggle="modal" data-target="#notifModal"><img id="image" class="img-fluid" src="Media/notifications.png" alt=""> <span class="badge badge-primary badge-pill">6</span> </img></a>
+                                  </li>
+                                  <li class="nav-item ml-1">
+                                      <a id="bouton3" class="nav-link btn btn-primary col-auto" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12"><img id="image" class="img-fluid" src="Media/home.png" alt=""></img></a>
+                                  </li>
+
+                                  <!-- <li class="nav-item ml-1">
+                                      <button id="bouton3" type="button" class="nav-link btn btn-primary col-auto" data-toggle="modal" data-target="#tweetModal"> <img id="image" class="img-fluid" src="Media/settings.png" alt=""></img> </button>
+                                  </li> -->
+                                  <!--  <li class="nav-item ml-1">
+                                      <a id="bouton4" class="nav-link btn btn-primary col-auto" href="index.html"><img id="image" class="img-fluid" src="Media/logout.png" alt=""></img></a> -->
+                                      <!-- <button id="bouton3" type="button" class="nav-link btn btn-primary col-auto" data-toggle="modal" data-target="#tweetModal"> <img id="image" class="img-fluid" src="Media/logout.png" alt=""></img> </button> -->
+                                  <!--</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </nav>
+
+                  <div id="alert-warning" class="alert alert-warning alert-dismissible" role="alert">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    This is a warning alert—check it out!
+                  </div>-->
+
+    <!-- Page Content -->
+
+    <!-- Image Section - set the background image for the header in the line below
+    <section class="py-5 bg-image-full" style="background: rgba(230,230,230,1);">
+      <!-- Put anything you want here! There is just a spacer below for demo purposes!
+      <div style="height: 100px;"></div>
+    </section>
+    <div class="mb-3 py-2 lg-12 profil content-center">
+            <div class="container">
+                <div id="accordion">
+                    <div  role="tablist" >
+                        <div class="row mt-2">
+                            <h2 class="col-auto mr-5">Karlaye</h2>
+                            <div class="mr-3">
+                                <a id="bouton4" class="btn btn-primary col-auto mt-2 ml-5" data-toggle="collapse" href="#informations" role="button" aria-expanded="false" aria-controls="informations"> Informations <img id="image" class="img-fluid" src="../Media/profil.png" alt=""></img> </a>
+                            </div>
+                            <div class="mr-3">
+                                <a id="bouton4" class="btn btn-primary col-auto mt-2" data-toggle="collapse" href="#follows" role="button" aria-expanded="false" aria-controls="follows"> Follows <span class="badge badge-primary badge-pill">1</span> </a>
+                            </div>
+                            <div class="mr-3">
+                                <a id="bouton4" class="btn btn-primary col-auto mt-2" data-toggle="collapse" href="#followers" role="button" aria-expanded="false" aria-controls="followers"> Followers <span class="badge badge-primary badge-pill">1</span> </a>
+                            </div>
+                            <div class="mr-3">
+                                <label id="bouton4" class="btn btn-primary col-auto mt-2" > Tweets <span class="badge badge-primary badge-pill">1</span> </label>
+                            </div>
+                            <div class="mr-3">
+                                <label id="bouton4" class="btn btn-primary col-auto mt-2"> Retweets <span class="badge badge-primary badge-pill">1</span> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                          <div class="collapse" id="informations" data-parent="#accordion">
+                            <div class="card card-body">
+                                <h5> Vos informations personnelles</h5>
+                                <table class="table table-bordered">
+                                    <tr><td class="w-25" style="background: rgba(230,230,230,1);"> Nom </td> <td> Vincent </td> </tr>
+                                    <tr><td style="background: rgba(230,230,230,1);"> Prénom </td> <td> Nolet </td> </tr>
+                                    <tr><td style="background: rgba(230,230,230,1);"> Pseudo </td> <td> @ZhippoPotame </td> </tr>
+                                    <tr><td style="background: rgba(230,230,230,1);"> Mail </td> <td> lezhippopotame@gmail.com </td> </tr>
+                                </table>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse" id="tweeter" data-parent="#accordion">
+                                <div class="card card-body">
+                                    <h5> Vous voulez poster un tweet ?</h5>
+                                    <input type="text" class="form-control my-2" placeholder="Titre du tweet">
+                                    <textarea class="form-control my-4" placeholder="Votre message" rows="3"> </textarea>
+                                    <div class="text-right">
+                                        <button id="bouton" type="button" class="btn btn-primary ">Twitter</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                          <div class="collapse" id="notifications" data-parent="#accordion">
+                            <div class="card card-body">
+                                <h5> Notifications non lues</h5>
+                                <div class="card card-body" style="background: rgba(240,240,240,1);">
+                                <label> Karlaye vous follow maintenant </label>
+                                </div>
+                                <div class="card card-body" style="background: rgba(240,240,240,1);">
+                                <label> Vous suivez maintenant RastaPoPulos</label>
+                                </div>
+                                <div class="card card-body" style="background: rgba(240,240,240,1);">
+                                <label> Karlaye vous follow maintenant </label>
+                                </div>
+                                <div class="card card-body" style="background: rgba(240,240,240,1);">
+                                <label> Karlaye vous follow maintenant </label>
+                                </div>
+                                <div class="card card-body" style="background: rgba(240,240,240,1);">
+                                <label> Karlaye vous follow maintenant </label>
+                                </div>
+                                <hr>
+                                <div class="text-right">
+                                  <button id="bouton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#notifModal"> Voir tout  </button>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                          <div class="collapse" id="follows" data-parent="#accordion">
+                            <div class="card card-body">
+                                <h5> Vos derniers follows</h5>
+                                <div class="card-body" style="background: rgba(240,240,240,1);">
+                                <label> Karlaye : le 01 / 01 / 2018 </label>
+                                </div>
+                                <hr>
+                                <div class="text-right">
+                                  <button id="bouton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#followsModal"> Voir tous  </button>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                          <div class="collapse" id="followers" data-parent="#accordion">
+                            <div class="card card-body">
+                                <h5> Ces personnes vous ont suivis récemment</h5>
+                                <div class="card-body" style="background: rgba(240,240,240,1);">
+                                <label> RastaPoPuloS : le 01 / 01 / 2018 </label>
+                                </div>
+                                <hr>
+                                <div class="text-right">
+                                  <button id="bouton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#followersModal"> Voir tous  </button>
+                                </div>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <section  class="py-5">-->
+
+      <!-- <div id="corpsPTweet" class="container col-lg-6">
+
+
+
+      Project One
+      <div id="display-tweet" v-for="jsonObject in jsonData" class="tweet row py-3">
+        <div class="col-md-7">
+          <h3>{{jsonObject.userId}} : Twitteratops, notre projet</h3>
+            <h6>Evry le : 24 / 03 / 2018</h6>
+            <p> {{jsonObject.content}} {{jsonObject.id}} Twitteratops, notre projet ! Twitteratops, notre projet ! Twitteratops, notre projet !</p>
+
+        </div>
+        <div class="col-md-5">
+            <h3>Commentaires</h3>
+            <h6>Rasta : <small> le 24 / 03 / 2018 </small> </h6>
+            <p>Merci Janicot pour ce commentaire plein d'entrain !</p>
+            <h6>Zhippo : <small> le 28 / 03 / 2018 </small> </h6>
+            <p> Nous sommes en marche !</p>
+            <div class="card-footer">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#commentModal">
+                    Commenter
+                </button>
+                <a href="preNat.html" class="btn btn-primary">Retweeter</a>
+            </div>
+        </div>
+      </div>
+      -->
+      <div id="app">
+
+      </div>
+
+      <hr>
+
+
+      <!-- Project One
+      <div class="tweet row py-3">
+        <div class="col-md-7">
+          <h3>Karlaye : Twitteratops, notre projet</h3>
+            <h6>Evry le : 24 / 03 / 2018</h6>
+            <p> Twitteratops, notre projet ! Twitteratops, notre projet ! Twitteratops, notre projet !</p>
+
+        </div>
+        <div class="col-md-5">
+            <h3>Commentaires</h3>
+            <h6>Rasta : <small> le 24 / 03 / 2018 </small> </h6>
+            <p>Merci Janicot pour ce commentaire plein d'entrain !</p>
+            <h6>Zhippo : <small> le 28 / 03 / 2018 </small> </h6>
+            <p> Nous sommes en marche !</p>
+            <div class="card-footer">
+                <a href="preNat.html" class="btn btn-primary">Retweeter</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#commentModal">
+                    Commenter
+                </button>
+            </div>
+        </div>
+      </div>-->
+      <!-- /.row -->
+
+
+
+      <!-- Modal
+        <div class="modal fade" id="tweetModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tweet</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <input type="text" class="form-control" placeholder="Titre du tweet">
+                <br>
+                <textarea class="form-control" placeholder="Votre message" rows="3"> </textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Twitter</button>
+              </div>
+            </div>
+          </div>
+        </div>-->
+
+
+
+      <!-- Modal
+        <div class="modal fade" id="commentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ajoutez votre commentaire</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                    <h3>Karlaye : Twitteratops, notre projet</h3>
+                    <h6>Evry le : 24 / 03 / 2018</h6>
+                    <p> Twitteratops, notre projet ! Twitteratops, notre projet ! Twitteratops, notre projet !</p>
+                    <br>
+                    <h5> Ecrivez votre message </h5>
+                    <textarea class="form-control" placeholder="Commentaire" rows="3"> </textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Sauvegarder</button>
+              </div>
+            </div>
+          </div>
+        </div>-->
+
+      <!-- Pagination
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+
+    </div>-->
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../src/script.js"></script>
+    <script src="/dist/build.js"></script>
+
+  </body>
+
+</html>

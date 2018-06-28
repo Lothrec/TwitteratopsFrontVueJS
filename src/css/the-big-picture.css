@@ -1,0 +1,44 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+
+body {
+  background: url('../Media/wallpaper.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.display-1 {
+    color:white;
+}
+.navbar {
+    background: rgba(0,0,0,0)!important;
+    border-bottom: 2px solid rgba(230,230,230,1);
+}       
+
+#cardFooter {
+    background: rgba(255,255,255,0.4)!important;
+    color:black;
+}
+
+#corpsPTweet {
+    background: rgba(255,255,255,0)!important;
+}
+
+.tweet {
+    background: rgba(255,255,255,1)!important;
+}
+
+#commentButton {
+    width: auto;
+    height:10px;
+}
+
+.profil {
+    border-bottom: 2px solid #edca46;
+    background: rgba(255,255,255,0.8);
+}
